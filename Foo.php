@@ -3,7 +3,8 @@
 use Hello\World;
 class Foo
 {
-    public function baz() {
+    public function baz()
+    {
         return true;
     }
 
@@ -11,8 +12,7 @@ class Foo
     {
         $what = TRUE;
 
-        $hey = function()
-        {
+        $hey = function () {
             return false;
         };
     }

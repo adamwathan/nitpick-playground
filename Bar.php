@@ -7,9 +7,8 @@ class Bar {
 
     public function foo()
     {
-        $hey = function()
-        {
-            return false;
+        $hey = function() {
+            return true;
         };
     }
 }
