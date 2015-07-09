@@ -4,7 +4,7 @@ use Hello\World;
 class Foo {
     public function baz()
     {
-        return true;
+        return FALSE;
     }
 
     public function foo()
