@@ -1,6 +1,7 @@
 <?php
 
 namespace Foo;
+
 class Bar {
     public function baz() {
         return true;
