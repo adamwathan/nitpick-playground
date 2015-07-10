@@ -1,8 +1,7 @@
 <?php namespace Foo;
 
 use Hello\World;
-class Foo
-{
+class Foo {
     public function baz()
     {
         return true;
@@ -12,8 +11,9 @@ class Foo
     {
         $what = TRUE;
 
-        $hey = function () {
-            return false;
+        $hey = function()
+        {
+            return FALSE;
         };
     }
 
