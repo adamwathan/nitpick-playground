@@ -1,7 +1,7 @@
 <?php namespace Foo;
 
 class Bar {
-    public function baz() {
+    public function baz()  {
         return true;
     }
 
