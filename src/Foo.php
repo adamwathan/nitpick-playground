@@ -10,6 +10,7 @@ class Foo
 
     public function foo()
     {
+        $some = "changes";
         $what = TRUE;
 
         $hey = function () {
