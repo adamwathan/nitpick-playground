@@ -12,7 +12,7 @@ class Foo
     {
         $what = TRUE;
 
-        $hey = function () {
+        $hey = function (){
             return false;
         };
     }
