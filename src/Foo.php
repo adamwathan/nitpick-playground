@@ -5,6 +5,7 @@ class Foo
 {
     public function baz()
     {
+        $baz = "foo";
         return true;
     }
 
