@@ -7,6 +7,7 @@ class Bar {
 
     public function foo()
     {
+        $foo = "bar";
         $hey = function() {
             return true;
         };
