@@ -17,6 +17,7 @@ class Foo
             return false;
         };
     }
+    function poop() {}
 
     function SoBad(){
         return "this isn't right";
