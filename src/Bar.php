@@ -1,4 +1,6 @@
-<?php namespace Foo;
+<?php
+
+namespace Foo;
 
 class Bar {
     public function baz() {
@@ -7,8 +9,6 @@ class Bar {
 
     public function foo()
     {
-        $hey = function() {
-            return true;
-        };
+        $hey = function() { return true; };
     }
 }
