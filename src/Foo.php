@@ -1,10 +1,8 @@
-<?php namespace Foo;
-
+<?php
+namespace Foo;
 use Hello\World;
-class Foo
-{
-    public function baz()
-    {
+class Foo {
+    public function baz() {
         return true;
     }
 
