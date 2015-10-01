@@ -10,12 +10,14 @@ class Foo
 
     public function foo()
     {
+        $some = "changes";
         $what = TRUE;
 
         $hey = function () {
             return false;
         };
     }
+    function poop() {}
 
     function SoBad(){
         return "this isn't right";
