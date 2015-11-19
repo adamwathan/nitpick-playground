@@ -11,4 +11,11 @@ class Bar {
             return true;
         };
     }
+
+    function psr2Violation_bro() {
+        return false;
+
+    }
+
+
 }
