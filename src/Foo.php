@@ -1,11 +1,17 @@
-<?php namespace Foo;
+<?php
 
 use Hello\World;
 class Foo
 {
     public function baz()
     {
-        return true;
+        if (true) return false;
+
+
+        foreach (range(5, 10) as $i)
+            {
+                echo 'hello';
+            }
     }
 
     public function foo()
@@ -15,9 +21,5 @@ class Foo
         $hey = function () {
             return false;
         };
-    }
-
-    function SoBad(){
-        return "this isn't right";
     }
 }
