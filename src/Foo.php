@@ -15,6 +15,11 @@ class Foo
         $hey = function () {
             return false;
         };
+
+        $this->baz(
+            $foo, $bar, $baz,
+            $snap, $crackle, $pop
+        );
     }
 
     function SoBad(){
