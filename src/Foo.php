@@ -5,7 +5,7 @@ class Foo
 {
     public function baz()
     {
-        return true;
+        return TRUE;
     }
 
     public function foo()
@@ -15,6 +15,11 @@ class Foo
         $hey = function () {
             return false;
         };
+    }
+
+    function dumb()
+    {
+        return FALSE;
     }
 
     function SoBad(){
