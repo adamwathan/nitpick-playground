@@ -28,6 +28,7 @@ class User extends Model implements AuthenticatableContract, CanResetPasswordCon
 
     public function repos()
     {
+        $foo = 'bar';
         return $this->hasMany(Repo::class)->orderBy('full_name', 'ASC');
     }
 
