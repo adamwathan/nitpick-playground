@@ -26,6 +26,16 @@ class User extends Model implements AuthenticatableContract, CanResetPasswordCon
         'payment_exempt' => 'boolean',
     ];
 
+    function bad_function_name()
+    {
+        if ('foo' == 'bar') {
+            return TRUE;
+        } else
+        {
+            return false;
+        }
+    }
+
     public function repos()
     {
         return $this->hasMany(Repo::class)->orderBy('full_name', 'ASC');
